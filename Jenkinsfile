@@ -58,6 +58,9 @@ pipeline {
             when {
                 branch 'master'
             }
+            steps {
+                milestone(1)
+            }            
         }
         stage('DeployToProduction') {
             when {
