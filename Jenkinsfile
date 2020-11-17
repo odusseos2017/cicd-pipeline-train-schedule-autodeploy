@@ -59,7 +59,7 @@ pipeline {
                 branch 'master'
             }
             steps {
-                milestone(1)
+                //
             }            
         }
         stage('DeployToProduction') {
