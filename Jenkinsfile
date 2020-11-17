@@ -59,7 +59,7 @@ pipeline {
                 branch 'master'
             }
             steps {
-                //
+                echo 'SmokeTest'
             }            
         }
         stage('DeployToProduction') {
